@@ -1,9 +1,10 @@
 .section-picktaxi {
     width: 100%;
     margin: auto;
+    margin-bottom: 100px;
     padding: 5px;
+    height: fit-content;
     background-color: rgba(236, 236, 236, 0.712);
-    height: 500px;
 }
 
 .picktaxi-head {
@@ -40,6 +41,18 @@
 }
 
 .picktaxi-collection {
-    width: 90%;
+    width: fit-content;
     margin: auto;
+    display: grid;
+    margin-bottom: -200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+        img {
+            border-radius: 2px;
+            box-shadow: 0 0 30px rgba(39, 39, 39, 0.644) !important;
+            height: 212px;
+            width: 310px;
+        }
 }

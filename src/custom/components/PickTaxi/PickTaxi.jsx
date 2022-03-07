@@ -7,26 +7,46 @@ function PickTaxi() {
 
     const IMAGES =
 [{
-        src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
+        src: "/assets/car1.jpg",
+        thumbnail: "/assets/car1.jpg",
         thumbnailWidth: 320,
         thumbnailHeight: 212,
-        caption: "After Rain (Jeshu John - designerspics.com)"
+        caption: "Innova Crista"
 },
 {
-        src: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_b.jpg",
-        thumbnail: "https://c2.staticflickr.com/9/8356/28897120681_3b2c0f43e0_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212,
-        tags: [{value: "Ocean", title: "Ocean"}, {value: "People", title: "People"}],
-        caption: "Boats (Jeshu John - designerspics.com)"
+    src: "/assets/car2.jpg",
+    thumbnail: "/assets/car2.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "Etios"
 },
- 
 {
-        src: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_b.jpg",
-        thumbnail: "https://c4.staticflickr.com/9/8887/28897124891_98c4fdd82b_n.jpg",
-        thumbnailWidth: 320,
-        thumbnailHeight: 212
+    src: "/assets/car3.jpg",
+    thumbnail: "/assets/car3.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "Swift Dzire"
+},
+{
+    src: "/assets/car4.jpg",
+    thumbnail: "/assets/car4.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "Force Traveller"
+},
+{
+    src: "/assets/car6.jpg",
+    thumbnail: "/assets/car6.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "Ertiga"
+},
+{
+    src: "/assets/car7.jpg",
+    thumbnail: "/assets/car7.jpg",
+    thumbnailWidth: 320,
+    thumbnailHeight: 212,
+    caption: "Traveller"
 }
 ]
 
@@ -41,7 +61,12 @@ function PickTaxi() {
                 <h5>(Additional Charges: Rs 500 Driver bata per day, Interstate Permit Charges.)</h5>
             </div>
             <div className='picktaxi-collection'>
-                <Gallery images={IMAGES}/>
+                    <img src={IMAGES[0].src} loading="lazy" alt="" />
+                    <img src={IMAGES[1].src} loading="lazy" alt=""  />
+                    <img src={IMAGES[2].src} loading="lazy" alt=""  />
+                    <img src={IMAGES[3].src} loading="lazy" alt=""  />
+                    <img src={IMAGES[4].src} loading="lazy" alt=""  />
+                    <img src={IMAGES[5].src} loading="lazy" alt=""  />
             </div>
         </section>
   )

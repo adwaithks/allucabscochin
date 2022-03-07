@@ -1,0 +1,60 @@
+.packages {
+    width: 95%;
+    margin: auto;
+
+}
+.packages-right {
+    padding: 10px;
+}
+
+.packages-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-kochi-head {
+    h1 {
+        font-size: 28px;
+    }
+    margin-bottom: 10px;
+}
+//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
+.about-kochi-desc {
+    h5 {
+        color: gray;
+        font-weight: 400;
+    }
+}
+
+.packages-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    h4 {
+        color: gray;
+        font-weight: 400;
+    }
+}
+
+
+.packages-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    height: fit-content;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-rows: 1fr 1fr;
+    img {
+        width: 275px;
+        box-shadow: 0 0 30px rgba(39, 39, 39, 0.644) !important;
+        height: 200px;
+    }
+
+}

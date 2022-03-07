@@ -1,0 +1,113 @@
+.footer-end {
+    width: 100%;
+    padding: 20px;
+    height: 320px;
+    margin-top: 100px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.199);
+    background-color: rgba(206, 206, 206, 0.795);
+}
+
+
+
+.footer-info {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .allucabs-info {
+        width: 30%;
+        padding: 10px;
+
+        .allucabs-info-head {
+            h2 {
+                margin-bottom: 10px;
+            }
+        }
+
+        .allucabs-info-desc {
+            h4 {
+                color: rgb(19, 19, 19);
+                font-weight: 400;
+            }
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            width: fit-content;
+            justify-content: space-evenly;
+            align-items: center;
+            * {
+                font-size: 2em;
+                cursor: pointer;
+                margin-left: 10px;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+        }
+
+
+    }
+
+
+    .footer-picktaxi {
+        width: 30%;
+        padding: 10px;
+
+        .footer-picktaxi-head {
+            h2 {
+                margin-bottom: 10px;
+            }
+        }
+
+        .footer-picktaxi-cars {
+            h4 {
+                font-weight: 400;
+            }
+        }
+    }
+
+    .contact-info {
+        width: 30%;
+        padding: 10px;
+
+        .contact-info-head {
+            h2 {
+                margin-bottom: 10px;
+
+            }
+        }
+
+        .contact-info-details {
+            h4 {
+                font-weight: 400;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+.footer-copyright {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h5 {
+        font-weight: 400;
+        color: gray;
+    }
+}
