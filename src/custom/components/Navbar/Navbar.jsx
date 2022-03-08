@@ -15,7 +15,7 @@ function Navbar() {
                 }
             })
         } catch {
-            console.log('err')
+            console.log('err');
         }
     }, [])
 
@@ -49,8 +49,12 @@ function Navbar() {
             <img src="/assets/logowhite.png" alt="" />
         </div>
         <div className='nav-options'>
-            <a className='nav-link' href="/">Home</a>
-            <a className='nav-link' href="/contact">Contact Us</a>
+            <h3 className='nav-link' onClick={() => {
+
+            }}>Home</h3>
+            <h3 className='nav-link' onClick={() => {
+                window.scrollTo(0, document.body.scrollHeight);
+            }}>Contact Us</h3>
         </div>
     </div>
   )

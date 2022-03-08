@@ -22,7 +22,7 @@
 }
 //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
 .about-kochi-desc {
-    h5 {
+    h4 {
         color: gray;
         font-weight: 400;
     }
@@ -57,6 +57,10 @@
         width: 275px;
         box-shadow: 0 0 30px rgba(39, 39, 39, 0.644) !important;
         height: 200px;
+        &:hover {
+            transition: ease-in 0.2s;
+            transform: scale(1.01);
+        }
     }
 }
 
@@ -83,8 +87,8 @@
             transition: 0.1s ease-in;
 
             &:hover {
-                transition: ease-in 0.1s;
-                transform: scale(1.02);
+                transition: ease-in 0.2s;
+                transform: scale(1.01);
             }
         }
     }

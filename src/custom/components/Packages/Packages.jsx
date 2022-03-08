@@ -39,7 +39,7 @@ function Packages() {
                             <h1>About Kochi</h1>
                         </div>
                         <div className="about-kochi-desc">
-                            <h5>Kochi also known as Cochin, is a major port city on the south-west coast of India bordering the Laccadive Sea. It is part of the district of Ernakulam in the state of Kerala and is often referred to as Ernakulam. Called the Queen of the Arabian Sea, Kochi was an important spice trading centre on the west coast of India from the 14th century onward. Kochi ranks first in the total number of international and domestic tourist arrivals in Kerala.</h5>
+                            <h4>Kochi also known as Cochin, is a major port city on the south-west coast of India bordering the Laccadive Sea. It is part of the district of Ernakulam in the state of Kerala and is often referred to as Ernakulam. Called the Queen of the Arabian Sea, Kochi was an important spice trading centre on the west coast of India from the 14th century onward. Kochi ranks first in the total number of international and domestic tourist arrivals in Kerala.</h4>
                         </div>
                     </div>
                 </div>

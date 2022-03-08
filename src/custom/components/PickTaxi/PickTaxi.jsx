@@ -61,12 +61,31 @@ function PickTaxi() {
                 <h5>(Additional Charges: Rs 500 Driver bata per day, Interstate Permit Charges.)</h5>
             </div>
             <div className='picktaxi-collection'>
-                    <img src={IMAGES[0].src} loading="lazy" alt="" />
-                    <img src={IMAGES[1].src} loading="lazy" alt=""  />
-                    <img src={IMAGES[2].src} loading="lazy" alt=""  />
-                    <img src={IMAGES[3].src} loading="lazy" alt=""  />
-                    <img src={IMAGES[4].src} loading="lazy" alt=""  />
-                    <img src={IMAGES[5].src} loading="lazy" alt=""  />
+                    <div className='picktaxi-img-wrap'>
+                        <img className='picktaxi-img' src={IMAGES[0].src} loading="lazy" alt="" />
+                        <h4 className='picktaxi-img-desc'>Innova Crista</h4>
+                    </div>
+                    <div className='picktaxi-img-wrap'>
+                        <img className='picktaxi-img' src={IMAGES[1].src} loading="lazy" alt="" />
+                        <h4 className='picktaxi-img-desc'>Etios</h4>
+                    </div>
+                    <div className='picktaxi-img-wrap'>
+                        <img className='picktaxi-img' src={IMAGES[2].src} loading="lazy" alt="" />
+                        <h4 className='picktaxi-img-desc'>Swift Dzire</h4>
+                    </div>
+                    <div className='picktaxi-img-wrap'>
+                        <img className='picktaxi-img' src={IMAGES[3].src} loading="lazy" alt="" />
+                        <h4 className='picktaxi-img-desc'>Force Traveller</h4>
+                    </div>
+                    <div className='picktaxi-img-wrap'>
+                        <img className='picktaxi-img' src={IMAGES[4].src} loading="lazy" alt="" />
+                        <h4 className='picktaxi-img-desc'>Ertiga</h4>
+                    </div>
+                    <div className='picktaxi-img-wrap'>
+                        <img className='picktaxi-img' src={IMAGES[5].src} loading="lazy" alt="" />
+                        <h4 className='picktaxi-img-desc'>Innova</h4>
+                    </div>
+
             </div>
         </section>
   )
