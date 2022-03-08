@@ -1,8 +1,7 @@
 .footer-end {
     width: 100%;
     padding: 20px;
-    height: 320px;
-    margin-top: 100px;
+    height: fit-content;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.199);
     background-color: rgba(206, 206, 206, 0.795);
 }
@@ -10,15 +9,15 @@
 
 
 .footer-info {
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr !important;
+    justify-content: center;
     margin-bottom: 50px;
 
     .allucabs-info {
-        width: 30%;
         padding: 10px;
+        height: 100%;
 
         .allucabs-info-head {
             h2 {
@@ -31,7 +30,7 @@
                 color: rgb(19, 19, 19);
                 font-weight: 400;
             }
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
 
         .social-links {
@@ -55,9 +54,8 @@
 
 
     .footer-picktaxi {
-        width: 30%;
-        padding: 10px;
-
+        padding: 10px;       
+        height: 100%;
         .footer-picktaxi-head {
             h2 {
                 margin-bottom: 10px;
@@ -72,9 +70,8 @@
     }
 
     .contact-info {
-        width: 30%;
         padding: 10px;
-
+        height: 100%;
         .contact-info-head {
             h2 {
                 margin-bottom: 10px;
@@ -88,16 +85,6 @@
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -110,4 +97,12 @@
         font-weight: 400;
         color: gray;
     }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 680px) {
+
+    .footer-info {
+        display: block;
+    }
+
 }

@@ -1,15 +1,17 @@
+
+
 .packages {
     width: 95%;
+    margin-bottom: 50px !important;
     margin: auto;
-
 }
 .packages-right {
+    width: 50%;
     padding: 10px;
 }
 
 .packages-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 }
 
 .about-kochi-head {
@@ -45,16 +47,65 @@
 
 .packages-img {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, 300px);
     width: 50%;
+    justify-content: center;
     height: fit-content;
-    row-gap: 10px;
-    column-gap: 10px;
-    grid-template-rows: 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
     img {
         width: 275px;
         box-shadow: 0 0 30px rgba(39, 39, 39, 0.644) !important;
         height: 200px;
     }
+}
 
+@media only screen and (min-width: 300px) and (max-width: 680px) {
+    .packages-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .packages-img {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 1fr);
+        width: 100%;
+        justify-content: center;
+        height: fit-content;
+        div {
+            width: 100%;
+        }
+        img {
+            width: 100%;
+            border-radius: 4px;
+            box-shadow: 0 0 30px rgba(39, 39, 39, 0.644) !important;
+            height: 200px;
+            transition: 0.1s ease-in;
+
+            &:hover {
+                transition: ease-in 0.1s;
+                transform: scale(1.02);
+            }
+        }
+    }
+
+    .packages-right {
+        width: 100%;
+        padding: 10px;
+    }
+    
+
+    .about-kochi-head {
+        h1 {
+            font-size: 28px;
+        }
+        margin-bottom: 10px;
+    }
+    .about-kochi-desc {
+        width: 100%;
+        h5 {
+            color: gray;
+            font-weight: 400;
+        }
+    }
 }

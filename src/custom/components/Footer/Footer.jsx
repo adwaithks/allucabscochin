@@ -43,7 +43,7 @@ function Footer() {
             </div>
         </div>
         <div className="footer-copyright">
-            <h5>Copyright ©2022 All rights reserved | Crafted with  by Hackney Solutions®</h5>
+            <h5>Copyright ©2022 All rights reserved | Crafted with ❤ by KS</h5>
         </div>
     </footer>
   )
