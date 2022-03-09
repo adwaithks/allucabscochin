@@ -5,6 +5,8 @@ import Carousal from '../../components/Carousal/Carousal';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import Packages from '../../components/Packages/Packages';
+import Testimonial from '../../components/Testimonial/Testimonial';
+import Float from '../../components/Float/Float';
 
 function Home() {
   return (
@@ -14,6 +16,8 @@ function Home() {
         <Services />
         <PickTaxi />
         <Packages />
+        <Testimonial />
+        <Float />
         <Footer />
     </>
   )

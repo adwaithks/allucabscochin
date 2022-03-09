@@ -2,7 +2,6 @@ import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel'; 
 import './Carousal.scss';
-import Navbar from '../Navbar/Navbar';
 
 function Carousal() {
   return (
@@ -13,11 +12,10 @@ function Carousal() {
             showThumbs={false}
             infiniteLoop={true}
             autoPlay={true}
-            swipeable={false}
+            swipeable={true}
             showStatus={false}
             showArrows={true}
             autoFocus={true}
-            animationHandler={"fade"}
         >
                 <div className='carousel-img'>
                     <img src="/assets/bannerinnova.png" />
@@ -30,8 +28,13 @@ function Carousal() {
                 </div>
 
                 <div className='carousel-img'>
-                    <img src="/assets/houseboat.png" />
-                    <h1 className="legend">House Boat Packages</h1>
+                    <img src="/assets/airport.jpg" />
+                    <h1 className="legend">Airport Pickup</h1>
+                </div>
+
+                <div className='carousel-img'>
+                    <img src="/assets/weddingpackage.jpg" />
+                    <h1 className="legend">Wedding Packages</h1>
                 </div>
                 
             </Carousel>

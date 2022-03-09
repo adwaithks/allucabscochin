@@ -18,12 +18,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr !important;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
     .allucabs-info {
         padding: 10px;
         height: 100%;
-
+        margin-bottom: 10px;
         .allucabs-info-head {
             h2 {
                 margin-bottom: 10px;
@@ -76,6 +76,7 @@
     .footer-picktaxi {
         padding: 10px;       
         height: 100%;
+        margin-bottom: 10px;
         .footer-picktaxi-head {
             h2 {
                 margin-bottom: 10px;

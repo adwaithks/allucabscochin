@@ -9,7 +9,7 @@
         img {
             object-fit: cover;
             height: 500px;
-            filter: brightness(50%);
+            filter: brightness(40%);
             background-position: center;
             background-size: cover;
             position: relative !important;
@@ -20,6 +20,7 @@
             margin-bottom: 100px;
             font-size: 4em;
             font-weight: 400;
+            text-shadow: 10px 20px 30px black;
             color: white;
             background: none;
         }
@@ -33,7 +34,7 @@
             img {
                 object-fit: cover;
                 height: 600px;
-                filter: brightness(50%);
+                filter: brightness(30%);
                 background-position: center;
                 background-size: cover;
                 position: relative !important;
@@ -41,8 +42,8 @@
             .legend {
                 position: absolute !important;
                 opacity: 1 !important;
-                margin-bottom: 150px;
-                font-size: 2em;
+                margin-bottom: 220px;
+                font-size: 2.1em;
                 font-weight: 400;
                 color: white;
                 background: none;
