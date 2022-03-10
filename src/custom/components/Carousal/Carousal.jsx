@@ -18,7 +18,7 @@ function Carousal() {
             autoFocus={true}
         >
                 <div className='carousel-img'>
-                    <img src="/assets/bannerinnova.png" />
+                    <img src="/assets/bannerinnova.jpg" />
                     <h1 className="legend">Cab Services In Cochin</h1>
                 </div>
 
