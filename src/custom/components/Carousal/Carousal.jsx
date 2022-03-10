@@ -28,7 +28,7 @@ function Carousal() {
                 </div>
 
                 <div className='carousel-img'>
-                    <img src="/assets/airport.jpg" />
+                    <img src="/assets/airportpackage.jpg" />
                     <h1 className="legend">Airport Pickup</h1>
                 </div>
 
