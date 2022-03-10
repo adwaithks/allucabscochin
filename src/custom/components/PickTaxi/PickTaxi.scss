@@ -115,19 +115,16 @@
 
     .picktaxi-collection-mob {
 
-        .picktaxi-mob-carousel {}
-    
-        .picktaxi-img-desc-mob {
+        .picktaxi-mob-carousel {
+        }
+
+        .picktaxi-img-desc-mob-top {
             position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
             padding: 10px;
-            font-size: 25px;
+            font-size: 18px;
             font-weight: 400;
             color: white;
             text-shadow: 0 0 30px black;    
-            bottom: 0;
             right: 0;
             left: 0;
             top: 0;
@@ -137,7 +134,24 @@
             align-items: center;
             background-color: rgba(0, 0, 0, 0.74);
         }
-    
+
+        .picktaxi-img-desc-mob-down {
+            position: absolute;
+            padding: 10px;
+            font-size: 18px;
+            display: flex;
+            font-weight: 400;
+            color: white;
+            text-shadow: 0 0 30px black;    
+            bottom: 0;
+            right: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.74);
+        }
+
         .picktaxi-img-wrap-mob {
             height: 100%;
             width: 100%;
