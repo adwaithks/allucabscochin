@@ -7,6 +7,7 @@ import Footer from '../../components/Footer/Footer';
 import Packages from '../../components/Packages/Packages';
 import Testimonial from '../../components/Testimonial/Testimonial';
 import Float from '../../components/Float/Float';
+import Quickcontact from '../../components/QuickContact/Quickcontact';
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
         <Services />
         <PickTaxi />
         <Packages />
+        <Quickcontact />
         <Testimonial />
         <Float />
         <Footer />
