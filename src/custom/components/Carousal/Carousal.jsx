@@ -36,6 +36,11 @@ function Carousal() {
                     <img src="/assets/weddingpackage.jpg" />
                     <h1 className="legend">Wedding Packages</h1>
                 </div>
+
+                <div className='carousel-img'>
+                    <img src="/assets/boat.jpg" />
+                    <h1 className="legend">Boating Packages</h1>
+                </div>
                 
             </Carousel>
     </section>
