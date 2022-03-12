@@ -23,7 +23,7 @@ function Carousal() {
                 </div>
 
                 <div className='carousel-img'>
-                    <img src="/assets/greenery.png" />
+                    <img src="/assets/boat.jpg" />
                     <h1 className="legend">Kerala Holiday Packages</h1>
                 </div>
 

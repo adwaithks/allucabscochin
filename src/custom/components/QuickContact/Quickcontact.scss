@@ -3,11 +3,17 @@
     height: 300px;
     border-radius: 4px;
     margin: auto;
+    cursor: pointer;
     display: flex;
     margin-bottom: 120px;
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);    justify-content: center;
+	background: linear-gradient(-55deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);    justify-content: center;
     align-items: center;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.555);
+
+    &:hover {
+        filter: brightness(90%);
+        transition: 0.1s ease-in-out;
+    }
 }
 
 .quick-contact-container {

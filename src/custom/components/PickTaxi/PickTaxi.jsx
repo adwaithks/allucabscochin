@@ -65,6 +65,13 @@ function PickTaxi() {
         thumbnailWidth: 320,
         thumbnailHeight: 212,
         caption: "Ford Aspire"
+    },
+    {
+        src: "/assets/premiumcar.jpg",
+        thumbnail: "/assets/premiumcar.jpg",
+        thumbnailWidth: 320,
+        thumbnailHeight: 212,
+        caption: "Premium Cars" 
     }
 ]
 
@@ -108,6 +115,10 @@ function PickTaxi() {
                         <div className='picktaxi-img-wrap'>
                             <img className='picktaxi-img' src={IMAGES[6].src} loading="lazy" alt="" />
                             <h4 className='picktaxi-img-desc'>Ford Aspire <AiOutlineLine className='line-sep' /> First 100 KM Rs.1300 <AiOutlineLine className='line-sep' /> Extra KM Rs.15/KM</h4>
+                        </div>
+                        <div className='picktaxi-img-wrap'>
+                            <img className='picktaxi-img' src={IMAGES[7].src} loading="lazy" alt="" />
+                            <h4 className='picktaxi-img-desc'>Premium Cars<AiOutlineLine className='line-sep' /> First 8hr, 80KM Rs.13500<AiOutlineLine className='line-sep' /> Extra KM Rs.45/KM</h4>
                         </div>
                     </div>
                 ) : (
@@ -158,6 +169,12 @@ function PickTaxi() {
                                 <h4 className='picktaxi-img-desc-mob-top'>Ford Aspire</h4>
                                 <h4 className='picktaxi-img-desc-mob-down'>First 100 KM Rs.1300 <GoPrimitiveDot /> Extra KM Rs.15/KM</h4>
                             </div>
+                            <div className='picktaxi-img-wrap-mob'>
+                                <img className='picktaxi-img-mob' src={IMAGES[7].src} loading="lazy" alt="" />
+                                <h4 className='picktaxi-img-desc-mob-top'>Premium Cars</h4>
+                                <h4 className='picktaxi-img-desc-mob-down'>First 8hr, 80KM Rs.13500<GoPrimitiveDot /> Extra KM Rs.45/KM</h4>
+                            </div>
+                            
                         </Carousel> 
                     </div>
                 )
