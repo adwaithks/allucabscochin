@@ -59,6 +59,19 @@ function Services() {
                 </div>
             </div>
 
+            <div className='card'>
+                <div className='card-img'>
+                    <img src="/assets/boat.jpg" alt="" />
+                </div>
+                <div className='card-desc'>
+                    <h1>Boating Packages</h1>
+                    <h4>Well, we operate our services on water too. How cool is that? Enjoy the beauty of Kerala on a boat ride and let this joy fill your heart.❤️</h4>
+                </div>
+                <div className='card-more'>
+                    <button>Know More</button>
+                </div>
+            </div>
+
         </div>           
     </section>
   )

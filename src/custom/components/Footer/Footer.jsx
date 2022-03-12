@@ -15,13 +15,13 @@ function Footer() {
                 </div>
                 <div className="social-links">
                     <BsFacebook className='social-link-fb' onClick={() => {
-
+                        window.open('https://www.facebook.com/Allu-cabs-cochin-100973089207811/', '_blank')
                     }} />
                     <BsWhatsapp className='social-link-whats'  onClick={() => {
                         window.open('https://api.whatsapp.com/send?phone=+918590868047&text=Enquiring%20for%20available%20services%20-%20Allu%20Cabs%20Cochin', "_blank")
                     }} />
                     <BsInstagram className='social-link-insta' onClick={() => {
-                        
+                        window.open('https://instagram.com/allu_cabs?utm_medium=copy_link', '_blank')
                     }}/>
                 </div>
             </div>

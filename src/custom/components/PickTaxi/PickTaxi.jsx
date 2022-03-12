@@ -89,6 +89,10 @@ function PickTaxi() {
                 (!mobileSlider) ? (
                     <div className='picktaxi-collection'>
                         <div className='picktaxi-img-wrap'>
+                            <img className='picktaxi-img' src={IMAGES[7].src} loading="lazy" alt="" />
+                            <h4 className='picktaxi-img-desc'>Premium Cars<AiOutlineLine className='line-sep' /> First 8hr, 80KM Rs.13500<AiOutlineLine className='line-sep' /> Extra KM Rs.45/KM</h4>
+                        </div>
+                        <div className='picktaxi-img-wrap'>
                             <img className='picktaxi-img' src={IMAGES[0].src} loading="lazy" alt="" />
                             <h4 className='picktaxi-img-desc'>Innova Crista <AiOutlineLine className='line-sep' /> First 100 KM Rs.2000 <AiOutlineLine className='line-sep' /> Extra KM Rs.20/KM</h4>
                         </div>
@@ -116,10 +120,6 @@ function PickTaxi() {
                             <img className='picktaxi-img' src={IMAGES[6].src} loading="lazy" alt="" />
                             <h4 className='picktaxi-img-desc'>Ford Aspire <AiOutlineLine className='line-sep' /> First 100 KM Rs.1300 <AiOutlineLine className='line-sep' /> Extra KM Rs.15/KM</h4>
                         </div>
-                        <div className='picktaxi-img-wrap'>
-                            <img className='picktaxi-img' src={IMAGES[7].src} loading="lazy" alt="" />
-                            <h4 className='picktaxi-img-desc'>Premium Cars<AiOutlineLine className='line-sep' /> First 8hr, 80KM Rs.13500<AiOutlineLine className='line-sep' /> Extra KM Rs.45/KM</h4>
-                        </div>
                     </div>
                 ) : (
                     <div className='picktaxi-collection-mob'>
@@ -134,6 +134,11 @@ function PickTaxi() {
                         showIndicators={false}
                         autoFocus={true}
                     >   
+                            <div className='picktaxi-img-wrap-mob'>
+                                <img className='picktaxi-img-mob' src={IMAGES[7].src} loading="lazy" alt="" />
+                                <h4 className='picktaxi-img-desc-mob-top'>Premium Cars</h4>
+                                <h4 className='picktaxi-img-desc-mob-down'>First 8hr, 80KM Rs.13500<GoPrimitiveDot /> Extra KM Rs.45/KM</h4>
+                            </div>
                             <div className='picktaxi-img-wrap-mob'>
                                 <img className='picktaxi-img-mob' src={IMAGES[0].src} loading="lazy" alt="" />
                                 <h4 className='picktaxi-img-desc-mob-top'>Innova Crista</h4>
@@ -169,12 +174,6 @@ function PickTaxi() {
                                 <h4 className='picktaxi-img-desc-mob-top'>Ford Aspire</h4>
                                 <h4 className='picktaxi-img-desc-mob-down'>First 100 KM Rs.1300 <GoPrimitiveDot /> Extra KM Rs.15/KM</h4>
                             </div>
-                            <div className='picktaxi-img-wrap-mob'>
-                                <img className='picktaxi-img-mob' src={IMAGES[7].src} loading="lazy" alt="" />
-                                <h4 className='picktaxi-img-desc-mob-top'>Premium Cars</h4>
-                                <h4 className='picktaxi-img-desc-mob-down'>First 8hr, 80KM Rs.13500<GoPrimitiveDot /> Extra KM Rs.45/KM</h4>
-                            </div>
-                            
                         </Carousel> 
                     </div>
                 )

@@ -22,7 +22,7 @@ function Testimonial() {
                 autoFocus={true}
             >
                 <div className='testimonial-card'>
-                    <BiUser className='testimonial-user' />
+                    <img src="/assets/libin.jpeg" alt="" className="testimonial-user-pic" />
                     <h1>Libin K Varkey</h1>
                     <h3>It was a different experience altogether with Allu Cabs. Very friendly driver and neat driving. Strongly recommending Allu Cabs!</h3>
                 </div>
